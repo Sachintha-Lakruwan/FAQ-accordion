@@ -6,18 +6,30 @@
 
 ![alt text](image.png)
 
-## Installing steps
+## Steps to Clone and Run a Project from GitHub to VS Code
 
-1. Clone the project
+### 1. Clone the Project
 
-2. Install npm packages
+1. **Install Git**: Download from [git-scm.com](https://git-scm.com/).
+2. **Open VS Code** and **Open Terminal**: Go to `View` -> `Terminal`.
+3. **Clone Repository**:
+   ```sh
+   git clone <URL>
+   cd <repository>
+   ```
 
-```js
-npm install
-```
+### 2. Install npm Packages
 
-3. Run!
+1. **Install Node.js**: Download from [nodejs.org](https://nodejs.org/).
+2. **Install npm Packages**:
+   ```sh
+   npm install
+   ```
 
-```js
-npm run dev
-```
+### 3. Run the Project
+
+1. **Start the Development Server**:
+   ```sh
+   npm run dev
+   ```
+2. **Open in Browser**: Navigate to `http://localhost:3000` (or specified port).
