@@ -1,6 +1,31 @@
+import Item from "./Item";
+
+const data = [
+  {
+    topic: "What is DevChallenges Hub, and how will it help me?",
+    description:
+      "DevChallenges Hub offers a variety of coding challenges designed to help developers enhance their skills in HTML, CSS, JavaScript, and more. It's perfect for learners of all levels and great for building your portfolio.",
+  },
+  {
+    topic: "Is DevChallenges Hub free?",
+    description:
+      "Yes, DevChallenges Hub provides numerous free challenges. Additionally, there are premium challenges and features available through a subscription for those seeking more advanced projects.",
+  },
+  {
+    topic: "Can I use DevChallenges Hub projects in my portfolio?",
+    description:
+      "Definitely! DevChallenges Hub encourages you to include your completed projects in your portfolio. It's an excellent way to showcase your abilities to potential employers.",
+  },
+  {
+    topic: "How can I get help if I'm stuck on a challenge?",
+    description:
+      "If you find yourself stuck, you can seek assistance in the DevChallenges Hub community forums. There, experienced developers and fellow learners are ready to help you overcome any hurdles.",
+  },
+];
+
 function App() {
   return (
-    <div className=" min-h-dvh bg-p1 flex justify-center items-center">
+    <div className="font-body min-h-dvh bg-p1 flex justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1440"
@@ -24,7 +49,35 @@ function App() {
           </clipPath>
         </defs>
       </svg>
-      <div className="bg-white w-11/12 md:w-3/4 aspect-square max-w-xl rounded-3xl shadow-xl relative z-10"></div>
+      <div className="bg-white w-11/12 md:w-3/4 aspect-square max-w-xl rounded-3xl shadow-xl relative z-10 p-10">
+        <div className=" flex gap-5 items-center mb-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="41"
+            fill="none"
+            viewBox="0 0 40 41"
+          >
+            <path
+              fill="#AD28EB"
+              d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"
+            />
+          </svg>
+          <h1 className=" text-5xl font-bold text-p3">FAQs</h1>
+        </div>
+        <div className=" flex flex-col">
+          {data.map((item, index) => (
+            <Item
+              topic={item.topic}
+              description={item.description}
+              lastOne={index === data.length - 1}
+              key={index}
+              active={3}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
