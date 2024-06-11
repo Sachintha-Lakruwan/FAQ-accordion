@@ -16,8 +16,8 @@
 2. **Open VS Code** and **Open Terminal**: Go to `View` -> `Terminal`.
 3. **Clone Repository**:
    ```sh
-   git clone <URL>
-   cd <repository>
+   git clone https://github.com/Sachintha-Lakruwan/FAQ-accordion.git
+   cd FAQ-accordion
    ```
 
 ### 2. Install npm Packages
