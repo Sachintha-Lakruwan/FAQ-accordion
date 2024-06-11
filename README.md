@@ -1,6 +1,6 @@
-# React Accordian with Typescript and Tailwind
+# React Accordi0n with Typescript and Tailwind
 
-## Example solution for FAQ accordian challenge in frontend mentor.
+## Example solution for FAQ accordion challenge in frontend mentor.
 
 - [link-to-the-challenge](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
 
