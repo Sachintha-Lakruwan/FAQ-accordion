@@ -4,6 +4,8 @@
 
 - [link-to-the-challenge](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
 
+### Description 📝
+
 ![alt text](image.png)
 
 ## Try This App! 👼
