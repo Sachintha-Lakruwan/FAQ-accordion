@@ -4,6 +4,8 @@
 
 - [link-to-the-challenge](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
 
+![alt text](image.png)
+
 ## Installing steps
 
 1. Clone the project
