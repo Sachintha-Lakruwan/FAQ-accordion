@@ -6,7 +6,7 @@
 
 ![alt text](image.png)
 
-## Steps to Clone and Run a Project from GitHub to VS Code
+## Try This App! 👼
 
 ### 1. Clone the Project
 
@@ -32,4 +32,4 @@
    ```sh
    npm run dev
    ```
-2. **Open in Browser**: Navigate to `http://localhost:3000` (or specified port).
+2. **Open in Browser**: Navigate to `http://localhost:5173/` (or specified port).
