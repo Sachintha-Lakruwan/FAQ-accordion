@@ -13,12 +13,13 @@
 ### 1. Clone the Project
 
 1. **Install Git**: Download from [git-scm.com](https://git-scm.com/).
-2. **Open VS Code** and **Open Terminal**: Go to `View` -> `Terminal`.
+2. **Open VS Code**.
 3. **Clone Repository**:
-   ```sh
-   git clone https://github.com/Sachintha-Lakruwan/FAQ-accordion.git
-   cd FAQ-accordion
-   ```
+   - Go to `View` -> `Command Palette` or press `Ctrl+Shift+P`.
+   - Type `Git: Clone` and select `Git: Clone`.
+   - Enter the repository URL (`https://github.com/Sachintha-Lakruwan/FAQ-accordion.git`) and click `Clone`.
+   - Choose a local directory to save the repository.
+   - Open the cloned repository when prompted.
 
 ### 2. Install npm Packages
 
